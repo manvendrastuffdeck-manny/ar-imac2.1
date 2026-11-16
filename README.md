@@ -1,5 +1,7 @@
 # AR Try-On 2.0: personalised product images
 
+> **About this repository.** This is `manvendrastuffdeck-manny/ar-imac2.1`, a new repository that continues the AR Try-On work from AR-iMac 2.1 onward. It was created as a separate repo so that the original (`manvendrakumar-hub/ar-tryon-2-image-generation`) and anything already wired to it stay exactly as they were. The full history of both versions is here: the 2.0 POC in `poc/` (tag `v2.0`) and the temple-locked pipeline in `ar-imac2.1/` (tag `v2.1`). Run `bash install.sh` to choose which one to set up.
+
 Turn a customer's face scan into their own product photos: the exact frame (PID) on their own face, from the front and from the side, in place of the worn-by-model shots on a product page.
 
 **Showcase (results, failures, recommendation, costs):** https://ar-tryon-2-showcase.vercel.app
