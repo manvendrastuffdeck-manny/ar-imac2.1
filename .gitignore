@@ -13,6 +13,16 @@ poc/models/
 # catalog images: re-download with poc/scripts/fetch_pids.py
 poc/pids/
 
+# v2.1 generated / downloaded files
+ar-imac2.1/pids/
+ar-imac2.1/out/
+ar-imac2.1/models/
+ar-imac2.1/faces/
+ar-imac2.1/.env
+
+# app test screenshots (customer faces)
+App output/
+
 # local tooling, not part of the project
 .agent-audit/
 Agent Audit/

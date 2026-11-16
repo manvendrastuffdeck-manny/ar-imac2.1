@@ -4,6 +4,21 @@ Turn a customer's face scan into their own product photos: the exact frame (PID)
 
 **Showcase (results, failures, recommendation, costs):** https://ar-tryon-2-showcase.vercel.app
 
+## Versions: choose one to install
+
+| Version | Folder | Product images sent per call | Status |
+|---|---|---|---|
+| **AR-iMac 2.1** | [`ar-imac2.1/`](ar-imac2.1/README.md) | front + three-quarter + **temple**, chosen by catalog label; generation is blocked if the temple view is missing | recommended |
+| 2.0 POC | `poc/` | one gallery image (front or three-quarter) | kept unchanged for reference; temple logos and details come out invented |
+
+```bash
+bash install.sh        # asks which version to set up (or: bash install.sh 2.1)
+```
+
+Why 2.1 exists: in the app test, the generated side shots had plain, generic temple arms. The bat emblem, grooves and the ∞ logo on the PIDs were all lost. The model had never been shown the temple. Diagnosis and fix: [ar-imac2.1/README.md](ar-imac2.1/README.md).
+
+The rest of this page documents the 2.0 POC.
+
 This repo holds the proof of concept: the scripts that generated and scored every test image, the planning documents, and the showcase site.
 
 ## Where it landed
