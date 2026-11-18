@@ -10,6 +10,7 @@ Turn a customer's face scan into their own product photos: the exact frame (PID)
 
 | Version | Folder | Product images sent per call | Status |
 |---|---|---|---|
+| **AR-iMac 2.2** | [`ar-imac2.2/`](ar-imac2.2/README.md) | as 2.1, plus switchable prompt packs: **PP1-STUDIO** (the current wording, identical to 2.1) and **PP2-PHONE** (smartphone look, 9:16) | experimental; runs on the 2.1 install |
 | **AR-iMac 2.1** | [`ar-imac2.1/`](ar-imac2.1/README.md) | front + three-quarter + **temple**, chosen by catalog label; generation is blocked if the temple view is missing | recommended |
 | 2.0 POC | `poc/` | one gallery image (front or three-quarter) | kept unchanged for reference; temple logos and details come out invented |
 

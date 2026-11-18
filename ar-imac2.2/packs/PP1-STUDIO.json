@@ -1,0 +1,69 @@
+{
+  "code": "PP1",
+  "name": "STUDIO",
+  "title": "Prompt pack 1: studio and lifestyle portrait (the current wording)",
+  "status": "baseline",
+  "created": "2026-11-18",
+  "summary": "The wording in use on 18 Nov 2026. Try On is the AR-iMac 2.1 studio prompt, word for word. Style is the LK2.0 app's StylePrompt.scene / StylePrompt.look as described in the developer's walkthrough of 18 Nov. To revert from any other pack, switch back to PP1.",
+  "tryon": {
+    "size": [1024, 1024],
+    "task": "Create a studio catalog portrait of this customer wearing exactly this eyewear.",
+    "shot": "Shot: close-up head-and-shoulders portrait. {pose_line} Relaxed neutral expression, eyes looking into the lens, plain dark grey crew-neck T-shirt. Seamless pure white studio background. Soft, even, diffused front lighting. 85 mm lens at eye level, sharp focus on the eyes, the frame and the temple arm.",
+    "render": "Render it as an unretouched photograph of a real person, with natural skin texture."
+  },
+  "style": {
+    "size": [1024, 1536],
+    "scene": {
+      "task": "Create a candid lifestyle photograph of this customer {scene}.{custom}",
+      "shot": "Shot: vertical portrait from the chest up, the face large and in the upper third of the picture, with a calm, uncluttered area above the head. 50 mm lens, shallow depth of field, {light}.",
+      "render": "Render it as an unretouched photograph of a real person, with natural skin texture."
+    },
+    "look": {
+      "render": "Keep it an unretouched photograph of a real person, with natural skin texture."
+    },
+    "themes": {
+      "work": {
+        "scene": "at a desk in a bright, modern office in the morning, with a laptop, a notebook and a plant softly out of focus behind",
+        "pose": "seated, turned slightly towards the camera with one forearm resting on the desk, a relaxed, confident half-smile, looking into the lens",
+        "outfit": "smart office wear: a crisp light-blue shirt with the collar open",
+        "light": "soft morning daylight from a large window at one side"
+      },
+      "holiday": {
+        "scene": "on the deck of a sailing boat on a sunny afternoon, with the sea and a hazy coastline softly out of focus behind",
+        "pose": "standing at the rail, turned slightly towards the camera, relaxed and at ease with a hint of a smile, looking into the lens",
+        "outfit": "a relaxed linen shirt in a light colour with the sleeves rolled",
+        "light": "bright, warm afternoon sun with soft shadows"
+      },
+      "party": {
+        "scene": "on a rooftop terrace at night, with friends chatting out of focus in the background and city lights as warm bokeh",
+        "pose": "standing, holding a glass at chest height, laughing as if mid-conversation, looking towards the lens",
+        "outfit": "a dark, well-fitted party outfit",
+        "light": "warm string lights overhead and the glow of the city at night"
+      },
+      "date_night": {
+        "scene": "alone at a candle-lit table in a restaurant courtyard in the evening, with fairy lights as warm bokeh behind and nobody else in the picture",
+        "pose": "seated, leaning in a little with one hand resting on the table, a warm, easy smile, looking into the lens",
+        "outfit": "an elegant dark evening outfit",
+        "light": "warm candlelight on the face and soft evening ambience"
+      },
+      "ethnic_vibes": {
+        "scene": "in the courtyard of a heritage haveli in the late afternoon, with carved stone arches softly out of focus behind",
+        "pose": "standing, turned slightly towards the camera, poised and at ease, looking into the lens",
+        "outfit": "elegant Indian ethnic wear",
+        "light": "soft golden-hour light"
+      },
+      "diwali": {
+        "scene": "at a Diwali celebration at home in the evening, with rows of lit diyas and marigold garlands softly out of focus behind",
+        "pose": "standing, relaxed, smiling warmly, looking into the lens",
+        "outfit": "festive Indian wear in a rich colour",
+        "light": "warm golden light from the lamps"
+      },
+      "sportswear": {
+        "scene": "on a running track beside a park in the early morning, with trees softly out of focus behind",
+        "pose": "standing, catching their breath after a run, energetic and relaxed, looking into the lens",
+        "outfit": "sportswear: a fitted performance top",
+        "light": "fresh early-morning light"
+      }
+    }
+  }
+}

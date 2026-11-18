@@ -1,0 +1,70 @@
+{
+  "code": "PP2",
+  "name": "PHONE",
+  "title": "Prompt pack 2: computational smartphone photo",
+  "status": "experimental",
+  "created": "2026-11-18",
+  "summary": "Makes every picture look like a real phone photo: vertical 9:16, deep focus, mobile HDR and tone mapping, no studio or cinematic look. Taken by another person from 1.5 to 2 m away, so the phone's wide lens does not enlarge the face. Style shots are framed from the waist up to fix the face-too-big problem. The face, frame-front and temple paragraphs are locked and identical to PP1.",
+  "phone_look": "Computational mobile-photo rendering, vertical 9:16 smartphone capture, small-sensor deep depth of field, short wide-angle optics, multi-frame mobile HDR, local tone mapping, edge-aware digital sharpening, mild denoising, compressed tonal rolloff, slight computational contrast, natural highlight rolloff, everyday candid phone realism. This should look like a real smartphone photo, not a DSLR image, not a studio shot, and not a polished stock image. Avoid shallow depth of field, avoid cinematic lighting, avoid perfect composition.",
+  "tryon": {
+    "size": [1152, 2048],
+    "task": "Create an everyday smartphone photo of this customer wearing exactly this eyewear.",
+    "shot": "Shot: {pose_line} Relaxed neutral expression, eyes looking into the lens, plain dark grey crew-neck T-shirt. Vertical 9:16 photo framed from the chest up, with natural head-to-shoulder proportions. Plain white wall behind, lit by soft daylight from a window. Taken by another person with a phone's main camera at eye level, about 1.5 m away: not a selfie, so the face is not stretched by the wide lens. The eyes, the frame and the temple arm are sharp.",
+    "render": "{phone_look} Keep natural, unretouched skin texture."
+  },
+  "style": {
+    "size": [1152, 2048],
+    "scene": {
+      "task": "Create an everyday smartphone photo of this customer {scene}.{custom}",
+      "shot": "Shot: vertical 9:16 photo framed from the waist up, with natural head-to-shoulder proportions, the face about a fifth of the picture's width, and a little open space above the head. Taken by a friend with a phone's main camera at chest height, about 2 m away: not a selfie, so the face is not stretched by the wide lens. The setting behind stays recognisable and mostly in focus. Light: {light}.",
+      "render": "{phone_look} Keep natural, unretouched skin texture."
+    },
+    "look": {
+      "render": "Keep it the same smartphone photo as Image 1, with the same sharpness, noise, tone mapping and colour. Do not add grain, smoothing or extra sharpening, and leave everything away from the eyewear exactly as it is."
+    },
+    "themes": {
+      "work": {
+        "scene": "at a desk in a bright, modern office in the morning, with a laptop, a notebook and a plant on the desk and the office visible behind",
+        "pose": "seated, turned slightly towards the camera with one forearm resting on the desk, a relaxed, confident half-smile, looking into the lens",
+        "outfit": "smart office wear: a crisp light-blue shirt with the collar open",
+        "light": "soft morning daylight from a large window at one side"
+      },
+      "holiday": {
+        "scene": "on the deck of a sailing boat on a sunny afternoon, with the sea and a hazy coastline behind",
+        "pose": "standing at the rail, turned slightly towards the camera, relaxed and at ease with a hint of a smile, looking into the lens",
+        "outfit": "a relaxed linen shirt in a light colour with the sleeves rolled",
+        "light": "bright afternoon sun"
+      },
+      "party": {
+        "scene": "on a rooftop terrace at night, with friends chatting in the background and the city lights behind",
+        "pose": "standing, holding a glass at chest height, laughing as if mid-conversation, looking towards the lens",
+        "outfit": "a dark, well-fitted party outfit",
+        "light": "string lights overhead and the glow of the city at night, as a phone's night mode records it"
+      },
+      "date_night": {
+        "scene": "alone at a candle-lit table in a restaurant courtyard in the evening, with fairy lights strung behind and nobody else in the picture",
+        "pose": "seated, leaning in a little with one hand resting on the table, a warm, easy smile, looking into the lens",
+        "outfit": "an elegant dark evening outfit",
+        "light": "candlelight and the courtyard's fairy lights, as a phone's night mode records it"
+      },
+      "ethnic_vibes": {
+        "scene": "in the courtyard of a heritage haveli in the late afternoon, with carved stone arches behind",
+        "pose": "standing, turned slightly towards the camera, poised and at ease, looking into the lens",
+        "outfit": "elegant Indian ethnic wear",
+        "light": "late-afternoon sunlight"
+      },
+      "diwali": {
+        "scene": "at a Diwali celebration at home in the evening, with rows of lit diyas and marigold garlands behind",
+        "pose": "standing, relaxed, smiling warmly, looking into the lens",
+        "outfit": "festive Indian wear in a rich colour",
+        "light": "light from the diyas and the room lamps, as a phone's night mode records it"
+      },
+      "sportswear": {
+        "scene": "on a running track beside a park in the early morning, with trees behind",
+        "pose": "standing, catching their breath after a run, energetic and relaxed, looking into the lens",
+        "outfit": "sportswear: a fitted performance top",
+        "light": "early-morning daylight"
+      }
+    }
+  }
+}

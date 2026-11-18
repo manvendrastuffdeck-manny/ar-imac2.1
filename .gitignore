@@ -41,3 +41,8 @@ __pycache__/
 *.pyc
 .DS_Store
 .venv/
+
+# v2.2 generated files (customer faces)
+ar-imac2.2/out/
+ar-imac2.2/faces/
+ar-imac2.2/.env
